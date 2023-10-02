@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Juego de Seguridad en Línea</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #070606;
+      }
+
+      #container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        text-align: center;
+        color: #333;
+      }
+
+      .question {
+        margin-bottom: 20px;
+      }
+
+      .options label {
+        display: block;
+        margin-bottom: 10px;
+        cursor: pointer;
+      }
+
+      .options input[type="radio"] {
+        margin-right: 5px;
+      }
+
+      .result {
+        text-align: center;
+        font-weight: bold;
+      }
+      
+      footer button {
+        padding: px;
+        font-size: 16px;
+        background-color: #060606;
+        color: #ffffff;
+        border: none;
+        cursor: pointer;
+
+      }
+      
+      footer {
+        text-align: center;
+        background-color: #ffffff;
+        color: #000000;
+        padding: 10px 0;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Juego de Seguridad en Línea</h1>
+
+      <div class="question">
+        <p>1. ¿Cuál es una medida importante para proteger tus contraseñas?</p>
+        <div class="options">
+          <label><input type="radio" name="q1" value="a">a) Compartir contraseñas con amigos</label>
+          <label><input type="radio" name="q1" value="b">b) Usar contraseñas largas y únicas</label>
+          <label><input type="radio" name="q1" value="c">c) Cambiar tus contraseñas cada semana</label>
+        </div>
+      </div>
+
+      <div class="question">
+        <p>2. ¿Qué significa la sigla "HTTPS" en una URL?</p>
+        <div class="options">
+          <label><input type="radio" name="q2" value="a">a) Hipertexto Seguro de Transferencia de Protocolo</label>
+          <label><input type="radio" name="q2" value="b">b) Protocolo de Transferencia Segura de Hipertexto</label>
+          <label><input type="radio" name="q2" value="c">c) Ninguna de las anteriores</label>
+        </div>
+      </div>
+
+      <div class="question">
+        <p>3. ¿Cuál es una forma común de evitar el phishing?</p>
+        <div class="options">
+          <label><input type="radio" name="q3" value="a">a) Compartir tu información personal</label>
+          <label><input type="radio" name="q3" value="b">b) Hacer clic en enlaces sospechosos en correos electrónicos</label>
+          <label><input type="radio" name="q3" value="c">c) Verificar la autenticidad de los correos electrónicos y enlaces antes de hacer clic</label>
+        </div>
+      </div>
+      <footer>
+        <a href="resultado.html">
+          <button>Resultado</button>
+        </a>
+      </footer>
+    </div>
+  </body>
+</html>
